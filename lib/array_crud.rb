@@ -2,13 +2,13 @@ def create_an_empty_array
   name = Array.new []
 end
 
-def create_an_array
+def create_an_array()
   name = Array.new ["Adrian", "Damian", "Fabian", "Sebastian"]
 
 end
 
 def add_element_to_end_of_array(array, element)
-  name = Array.new ["Adrian", "Damian", "Fabian", "Sebastian"] << "arrays!"
+  name = Array.new ["Adrian", "Damian", "Fabian", "Sebastian"] << "element!"
 
 
 end
@@ -16,7 +16,7 @@ end
 def add_element_to_start_of_array(array, element)
   name = Array.new ["Adrian", "Damian", "Fabian", "Sebastian"]
   name.unshift["wow"]
-  
+
 
 end
 
