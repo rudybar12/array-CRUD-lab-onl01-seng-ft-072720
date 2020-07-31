@@ -8,13 +8,12 @@ def create_an_array()
 end
 
 def add_element_to_end_of_array(array, element)
-  array << element 
+  array << element
 
 end
 
 def add_element_to_start_of_array(array, element)
-  name = Array.new ["Adrian", "Damian", "Fabian", "Sebastian"]
-  name.unshift["wow"]
+  array.unshift(element)
 
 
 end
